@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1850871419799862291}
   m_LocalRotation: {x: -0, y: -0, z: -0.0045180335, w: 0.9999898}
   m_LocalPosition: {x: -178.76, y: 47.93, z: 0}
-  m_LocalScale: {x: 9.505275, y: 12.09863, z: 9.749}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 6699824278276478601}
   m_Father: {fileID: 0}
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  ProjectileSpeed: 20
+  ProjectileSpeed: 10
   newP: 1
   timer: 0
   coin: {fileID: 0}
@@ -141,7 +141,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 3d9bbc3eb802abb478663a9e4c5f011c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
