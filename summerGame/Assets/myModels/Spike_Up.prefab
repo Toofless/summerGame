@@ -70,7 +70,7 @@ MonoBehaviour:
   ProjectileSpeed: 10
   newP: 1
   timer: 0
-  coin: {fileID: 0}
+  coin: {fileID: 8180411735580896791, guid: 2a82ec4c5f6ca494198aeac54c522e2b, type: 3}
   coinDropChance: 0
 --- !u!1 &6765576761624858239
 GameObject:
