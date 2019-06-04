@@ -8,14 +8,14 @@ public class Inventory : MonoBehaviour
     public GameObject closedDoor;
     public GameObject openedDoorMessage;
     public int coinCount = 0;
-    public GameObject coinAmount;
+    //public GameObject coinAmount;
     // Start is called before the first frame update
     void Start()
     {
         openDoor.SetActive(false);
         closedDoor.SetActive(true);
         openedDoorMessage.SetActive(false);
-        coinAmount.SetActive(true);
+        //coinAmount.SetActive(true);
     }
 
     // Update is called once per frame

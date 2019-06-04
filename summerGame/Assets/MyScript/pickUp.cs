@@ -24,7 +24,7 @@ public class pickUp : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            //itemAmount.coinAmount = itemAmount.coinAmount + 1;
+            itemAmount.coinCount = itemAmount.coinCount + 1;
             Destroy(gameObject);
         }
     }
